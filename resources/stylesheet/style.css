@@ -43,12 +43,10 @@ nav span{
 
 #main{
   display: flex;
-  justify-content: center;
+  height:700px;
+  width: 1200px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
-  padding-top: 70px;
 }
 
 .content{
-  display: flex;
-
 }
