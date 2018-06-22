@@ -33,7 +33,6 @@ header img{
 nav{
   flex-grow: 1;
   text-align: right;
-  display: inline-block;
   margin-top: 20px;
 }
 
