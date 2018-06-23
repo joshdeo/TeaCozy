@@ -3,7 +3,7 @@
   margin: 0;
 }
 
-body{
+body {
   font-family: helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
@@ -11,22 +11,16 @@ body{
   opacity: 0.9;
 }
 
-.contanier{
-  display: flex;
-  justify-content: center;
-  text-wrap: wrap;
-}
-
-header{
+header {
   display: flex;
   position: fixed;
+  background: black;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
 }
 
-header img{
-  display: inline-block;
+header img {
   height: 50px;
   margin-top: 5px;
   margin-left: 10px;
@@ -38,36 +32,98 @@ nav{
   margin-top: 20px;
 }
 
-nav span{
+nav span {
   text-decoration: underline;
   padding: 0 10px;
 }
 
-#main{
+#main {
   margin-top: 70px;
-  position: fixed;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
   height: 700px;
   width: 1200px;
 }
 
-.content{
+.contanier {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content {
   margin: auto;
+  margin-top: 45vh;
   text-align: center;
   align-items: center;
   background-color: black;
 }
 
-.content h2{
+.content h2 {
   padding: 10px 0px;
 }
 
-.content h4{
+.content h4 {
   padding: 10px 0px;
 }
 
-.second{
-  display: block;
+.second {
+  display: flex;
   width: 1000px;
   text-align: center;
+  justify-content: center;
+}
+
+.section2 h2 {
+  padding-top: 100px;
+  padding-bottom: 30px;
+}
+
+.section2 h4 {
+  padding-bottom: 20px;
+}
+.mainimg {
+  width: 1000px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.mainimg img {
+  width: 300px;
+  height: 200px;
+}
+
+.mainimg h4 {
+  padding: 10px 0px;
+}
+
+.third {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  width: 1000px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+}
+
+.third .downtown {
+  opacity: 1;
+  background-color: black;
+  width: 300px;
+}
+
+.third .eastbay {
+  opacity: 1;
+  background-color: black;
+  width: 300px;
+}
+
+.third .oakdale {
+  opacity: 1;
+  background-color: black;
+  width: 300px;
 }
