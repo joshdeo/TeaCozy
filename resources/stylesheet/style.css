@@ -106,24 +106,54 @@ nav span {
   justify-content: space-around;
   align-items: center;
   height: 500px;
-  width: 1000px;
+  width: 1200px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
 }
 
-.third .downtown {
-  opacity: 1;
-  background-color: black;
-  width: 300px;
+h3 {
+  padding: 10px;
 }
 
-.third .eastbay {
-  opacity: 1;
-  background-color: black;
-  width: 300px;
+.third p {
+  padding: 20px;
 }
 
-.third .oakdale {
+.downtown {
+  margin: 15px 40px;
   opacity: 1;
   background-color: black;
-  width: 300px;
+  flex-basis: 300px;
+}
+
+.eastbay {
+  margin: 15px 40px;
+  opacity: 1;
+  background-color: black;
+  flex-basis: 300px;
+}
+
+.oakdale {
+  margin: 15px 40px;
+  opacity: 1;
+  background-color: black;
+  flex-basis: 300px;
+}
+
+.bottom{
+  height: 200px;
+  display: flex;
+  text-align: center;
+}
+
+.contentbottom h2 {
+    padding: 10px;
+}
+
+.contentbottom h5 {
+  padding: 20px;
+}
+
+footer {
+  text-align: left;
+  margin-left: 20px;
 }
