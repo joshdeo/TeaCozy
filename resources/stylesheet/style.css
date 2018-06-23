@@ -13,6 +13,8 @@ body{
 
 .contanier{
   display: flex;
+  justify-content: center;
+  text-wrap: wrap;
 }
 
 header{
@@ -42,11 +44,24 @@ nav span{
 }
 
 #main{
-  display: flex;
-  height:700px;
-  width: 1200px;
+  margin-top: 70px;
+  position: fixed;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+  height: 700px;
+  width: 1200px;
 }
 
 .content{
+  display: block;
+  margin-top: 350px;
+  text-align: center;
+  background-color: black;
+}
+
+.content h2{
+  padding: 10px 0px;
+}
+
+.content h4{
+  padding: 10px 0px;
 }
